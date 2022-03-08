@@ -3,9 +3,9 @@
 ## Contacts
  + 8 919 323 44 52
  + sabirova.elvira.gam@gmail.com
- + telegrem: @ela_la
+ + telegram: @ela_la
 
- ##Briefly about me
+ ## Briefly about me
 
 I'm sudent Yandex.Practicum and Rolling Stone School in the direction of Frontend development. I easily learn new things, I have good logic, I love clean and beautiful code. I've bachelor's degree in technosphere security, but I want to create and see the result of the work and that's why I like the frontend.
 
@@ -40,7 +40,7 @@ function well(x){
 
 ## Projects
 
-+[Russian-travel](https://antonovkae.github.io/russian-travel/index.html)
++ [Russian-travel](https://antonovkae.github.io/russian-travel/index.html)
 + [Mesto](https://antonovkae.github.io/mesto/index.html)
 
 
