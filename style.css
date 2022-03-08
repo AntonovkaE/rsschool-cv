@@ -1,0 +1,67 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.list__link, link {
+  font-weight: 700;
+  color: black;
+  transition: opacity 1sß;
+}
+
+.list__link:hover {
+  opacity: 0.6;
+}
+
+.section {
+  margin: 0 10% 50px;
+}
+
+.section__title {
+  text-align: center;
+  margin: 0 auto 30px;
+}
+.page__header {
+  margin: 20px 10% 50px;
+}
+.language-list__heading {
+  font-weight: 700;
+}
+
+.skils-list {
+  text-align: center;
+}
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me__photo {
+  border-radius: 50%;
+  object-position: center left;
+  object-fit: cover;
+}
+
+.projects-list {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .projects-list{
+    grid-template-columns: 1fr
+  }
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project__img {
+  width: 90%;
+}
