@@ -13,8 +13,8 @@
     <header class="page__header">
       <nav class="">
         <ul class="nav list nav-list">
-          <li class="nav-item list__item nav-list__item"><a href="#about-me-section" class="nav-link activelist__link nav-list__link">ANTONOVSKAYA Elvira</a></li>
-          <li class="nav-item list__item nav-list__item"><a href="#contacts-section" class="nav-link list__linknav-list__link">Contacts</a></li>
+          <li class="nav-item list__item nav-list__item"><a href="#about-me-section" class="nav-link active list__link nav-list__link">ANTONOVSKAYA Elvira</a></li>
+          <li class="nav-item list__item nav-list__item"><a href="#contacts-section" class="nav-link list__link nav-list__link">Contacts</a></li>
           <li class="nav-item list__item nav-list__item"><a href="#description-section" class="nav-link list__link nav-list__linl">Briefly about me</a></li>
           <li class="nav-item list__item nav-list__item"><a href="#skils-section" class="nav-link list__link nav-list__linl">Skils</a></li>
           <li class="nav-item list__item nav-list__item"><a href="#task-section" class="nav-link list__link nav-list__linl">Code example</a></li>
@@ -27,18 +27,21 @@
     </header>
     <main class="page__main">
       <section class="page__section section about-me" id="about-me-section">
-        <h1 class="about-me__name section__title">ANTONOVSKAYA Elvira</h1>
-        <p class="about-me__profession">Junior Frontend Developer</p>
+        <div class="about-me__name-block">
+          <h1 class="about-me__name section__title">ANTONOVSKAYA Elvira</h1>
+          <p class="about-me__profession">Junior Frontend Developer</p>
+        </div>
+        <img src="img/IMG_1430.JPG" alt="личное фото" class="about-me__photo" width="200px" height="200px">
       </section>
       <section class="page__section section" id="contscts-section">
         <ul class="list contscts-list">
-          <li class="list__item contacts-list__item">8 919 323 44 52</li>
-          <li class="list__item contacts-list__item"><a href="">sabirova.elvira.gam@gmail.com</a></li>
-          <li class="list__item contacts-list__item">telegram:<a href="">@ela_la</a></li>
+          <li class="list__item contacts-list__item">tel: 8 919 323 44 52</li>
+          <li class="list__item contacts-list__item">e-mail: <a class="list__link" href="">sabirova.elvira.gam@gmail.com</a></li>
+          <li class="list__item contacts-list__item">telegram: <a class="list__link" href="">@ela_la</a></li>
         </ul>
       </section>
       <section class="page__section section description" id="description-section">
-        <h2 class="description__title">Briefly about me</h2>
+        <h2 class=" section__title description__title">Briefly about me</h2>
         <p class="description__text">
           I'm sudent Yandex.Practicum and Rolling Stone School in the direction of Frontend development. I easily learn new things, I have good logic, I love clean and beautiful code. I've bachelor's degree in technosphere security, but I want to create and see the result of the work and that's why I like the frontend.
         </p>
@@ -78,8 +81,31 @@
       <section class="page__section section section projects" id="projects-section">
         <h2 class="projects__title section__title">Projects</h2>
         <ul class="list projects-list">
-          <li class="list__item projects-list__item"><a href="https://antonovkae.github.io/russian-travel/index.html" class="projects-list__link">Russian-travel</a></li>
-          <li class="list__item projects-list__item"><a href="https://antonovkae.github.io/mesto/index.html" class="project-list__link">Mesto</a></li>
+          <li class="list__item projects-list__item project"><a href="https://antonovkae.github.io/russian-travel/index.html" class="list__link projects-list__link">
+            <figure class="project__illustration">
+              <img
+                src="img/russian-travel.png"
+                alt="скрин проекта"
+                class="project__img"
+              />
+              <figcaption class="lead__caption">Russian-travel</figcaption>
+            </figure>
+          </a>
+          <p class="project__description">
+            The purpose of this project is to practice layout skills. The project was made in accordance with the BEM methodology, flexbox and grid were used for markup in it. After the delivery, there are plans to add a light theme.
+          </p>
+        </li>
+          <li class="list__item projects-list__item project"><a href="https://antonovkae.github.io/mesto/index.html" class="list__link project-list__link">
+            <figure class="project__illustration">
+            <img
+              src="img/mesto.png"
+              alt="скрин проекта"
+              class="project__img"
+            />
+            <figcaption class="project__caption">Mesto</figcaption>
+          </figure></a>
+          <p class="project__description">The purpose of this project is to practice JavaScript. The project is made in accordance with the BEM methodology, a modal window, validator form are implemented using JavaScript. User can add new card, delete card, change name.</p>
+        </li>
         </ul>
       </section>
       <section class="page__section section" id="courses-section">
