@@ -6,7 +6,7 @@
 .list__link, link {
   font-weight: 700;
   color: black;
-  transition: opacity 1sß;
+  transition: opacity;
 }
 
 .list__link:hover {
@@ -49,6 +49,39 @@
   align-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+
+.footer__course-img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.page__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__footer::before {
+  width: 100%;
+  margin-bottom: 50px;
+  border-top: gray solid 1px;
+  content: '';
+
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  margin: 20px;
+}
+
+.footer__date {
+  color: lightgray;
+  font-size: 10px;
 }
 
 @media screen and (max-width: 760px) {
