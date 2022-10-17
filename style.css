@@ -28,7 +28,7 @@
   font-weight: 700;
 }
 
-.skils-list {
+.skills-list {
   text-align: center;
 }
 .about-me {
@@ -40,6 +40,8 @@
   border-radius: 50%;
   object-position: center left;
   object-fit: cover;
+  width: 200px;
+  height: 200px;
 }
 
 .projects-list {
