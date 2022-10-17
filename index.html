@@ -85,21 +85,24 @@
                 there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'.
                 If there are no good ideas, as is often the case, return 'Fail!'.
             </p>
-            <code class="task__code">
-                function well(x){
-                let i = 0
-                x.forEach((item) => {
-                if (item == "good") {
-                i++;
-                }})
-                if (i > 2) {
-                return 'I smell a series!'
-                } else {
-                return 'Fail!'}
-                }
+            <pre>
+                <code class="task__code">
+function well(x){
+  let i = 0
+  x.forEach((item) =&gt; {
+    if (item == &quot;good&quot;) {
+      i++;
+    }
+  })
+  if (i &gt; 2) {
+    return 'I smell a series!'
+  } else {
+    return 'Fail!'}
+}
             </code>
+            </pre>
         </section>
-        <section class="page__section section section projects" id="projects-section">
+        <section class="page__section section projects" id="projects-section">
             <h2 class="projects__title section__title">Projects</h2>
             <ul class="list projects-list">
                 <li class="list__item projects-list__item project"><a
